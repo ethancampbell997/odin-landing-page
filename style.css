@@ -1,0 +1,31 @@
+/*basic structure*/
+.header, .one, .two, .three, .four, .footer {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+/*background colors*/
+.header, .one, .footer{
+    background-color: #1f2937;
+    color: white;
+}
+.three {
+    background-color: #e5e7eb;
+}
+/*header stuff*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    display: flex;
+    gap: 10px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
