@@ -17,34 +17,50 @@ body {
     background-color: #e5e7eb;
 }
 /*header stuff*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 h3 {
-    font-size: 18px;
-    
+    font-size: 24px;
     color: #f9faf8;
 }
 .links {
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     gap: 25px;
     font-weight: 18px;
     color: #e5e7eb;
 }
-
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: 800;
-    color: #f9faf8;
-}
+/*one stuff*/
 .one {
     display: flex;
     gap: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.left {
+    flex: 1 1 0;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin-bottom: 0px;
+}
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0px;
+}
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 8px;
+    font-size: 18px;
 }
 .placeholder {
     background-color: grey;
@@ -52,10 +68,4 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-.left {
-    flex: 1 1 0;
-}
-button {
-    background-color: rgb(59, 130, 246);
 }
