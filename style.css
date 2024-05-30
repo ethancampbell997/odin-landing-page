@@ -15,6 +15,8 @@ body {
 }
 .three {
     background-color: #e5e7eb;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 /*header stuff*/
 .header {
@@ -94,4 +96,18 @@ button {
     width: 150px;
     flex: 1 1 auto;
     border-radius: 12px;
+}
+/*three stuff*/
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+.author {
+    text-align: end;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 0px;
 }
