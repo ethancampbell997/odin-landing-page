@@ -144,3 +144,7 @@ button {
     border-color: #f9faf8;
     border-width: 3px;
 }
+/*footer*/
+.footer {
+    text-align: center;
+}
